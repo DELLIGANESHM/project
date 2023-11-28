@@ -1,0 +1,40 @@
+package newprogram;
+import java.util.Scanner;
+public class ATM_Example {
+
+	public static void main(String[] args) {
+		int balance=100000,withdraw,deposit;
+		Scanner dg=new Scanner(System.in);
+		while(true) {
+			System.out.println("Automated Teller Machine");
+			System.out.println("Choose 1 for withdraw :");
+			System.out.println("Choose 2 for Deposit : ");
+			System.out.println("Choose 3 for Check balance :");
+			System.out.println("Choose 4 for exit :");
+			System.out.println("choose one operation to perform");
+			
+			int choice=dg.nextInt();
+			switch(choice) {
+			case 1:System.out.println(" Enter your withdraw money");
+			withdraw=dg.nextInt();
+			if(balance>=withdraw) {
+				balance=balance-withdraw;
+				System.out.println("Please collect your Money");
+			}
+			else {
+				System.out.println("insuffient balance");
+			}
+			break;
+			case 2:System.out.println("Enter your Deposit money");
+			 deposit=dg.nextInt();
+			    balance=balance+deposit;
+			    break;
+			case 3:
+				     System.out.println("Your balance amount "+balance);
+				     break;
+			case 4:System.exit(0);
+			 
+			}
+		}
+		
+}}
