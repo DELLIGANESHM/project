@@ -1,1 +1,85 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{color: aqua;}
+    body{
+        background-color: rgb(22, 83, 22);
+        display: block;
+
+    }
+    .container{
+        background-color: aquamarine;
+        width:100%;
+        height: 600px;
+       font-size: large;
+       margin:40px;
+       text-indent: 30px;
+       
+    }
+    .container1{
+        background-color: blueviolet;
+        width:100%;
+        position: sticky;
+    }
+    div{
+      margin:0 auto;
+    width: 100px;
+
+    
+    }
+
+    h1{position: sticky;}
+    ol :hover{color: blueviolet;}
+  
+.two{
+    list-style-position: inside;
+}
+pre{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+    </style>
+
+</head>
+<body>
+    <div class="container1">
+    <h1 align="center"> APJ ABDUL KALAM</h1>
+</div>
+<div>
+    <img  src="APJ.jpeg">
+</div>
+
+    <div class="container">
+     <p>Avul Pakir Jainulabdeen Abdul                                Kalam (Tamil: அவுல்  பகீர்  ஜைனுலாப்தீன் அப்துல் கலாம்; audio speaker iconpronunciation (help·info); 15 October 1931 – 27 July 2015) usually known as A.P.J. Abdul Kalam, was a famous Indian aerospace engineer. He was the 11th President of India, from 2002 to 2007.[1]
+
+            When he was president, he was popularly known as the People's President. He was awarded the Bharat Ratna, India's highest civilian honour in 1997. He has also been a professor (of aerospace engineering). Kalam is the first Chancellor of the Indian Institute of Space Science and Technology Thiruvananthapuram (IIST). He is called as the "Missile Man" of India.[2]
+            <br>
+           <b>Death </b> 
+            Abdul Kalam died on July 27, 2015 (07:45 Indian Standard Time GMT+5:30) at Bethany Hospital, Shillong after having collapsed due to cardiac arrest during a lecture he was giving at the Indian Institute of Management (IIM).[3][4]
+            </b> 
+            References
+            <h3> APJ Abdulkalam Facts </h3>
+             "Kudankulam N-plant protests: Kalam steps in as mediator". Archived from the original on 2012-01-01. Retrieved 2015-07-28.
+             "End of an era: 'Missile man' APJ Abdul Kalam passes away after cardiac arrest". Firstpost. Retrieved 28 July 2015.
+             Anindita Sanyal (27 July 2015). "Former President APJ Abdul Kalam Dies at 83". NDTV.com. Retrieved 28 July 2015.
+            Other websites
+        </p>
+    
+<ul class="two">
+    <li>dream</li>
+    <li>focus</li>
+    <li>achieved</li>
+</ul>
+ <span><pre> by   delliganesh   <a href ="https://www.instagram.com/ig_david___________/" title="instagram" >@ig_david</a>  wikipedia - <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" title="wikipedia" > apj abdul kalam </a> </pre></span>
+    </div>
+
+   
+</body>
+</html>
